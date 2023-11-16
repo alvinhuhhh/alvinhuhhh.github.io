@@ -3,3 +3,63 @@
   height: 100%;
   width: auto;
 }
+
+.content {
+  height: 85%;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+h1 {
+  width: 50%;
+  color: #ffffff;
+  text-align: right;
+}
+
+.motif {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 48px;
+}
+h5 {
+  width: 50%;
+  color: #ffffff;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  padding-right: 8px;
+}
+.arrow {
+  height: 50%;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+}
+
+.footer {
+  height: 15%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.badge {
+  height: 80%;
+  margin: 1%;
+}
