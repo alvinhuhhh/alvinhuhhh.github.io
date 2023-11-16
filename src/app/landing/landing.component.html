@@ -1,19 +1,31 @@
 <div class="page">
-  <h1>Alvin Tan</h1>
-  <h1>陈维斌</h1>
-  <h5>
-    Transforming creative concepts into high-impact, business-driven solutions
-  </h5>
-  <app-styled-button
-    title="GitHub"
-    class="primary"
-    href="https://github.com/alvinhuhhh"
-  ></app-styled-button>
-  <app-styled-button
-    title="Contact"
-    class="secondary"
-    [scrollToPage]="true"
-  ></app-styled-button>
-  <img src="assets/Hero.png" />
-  <app-next-page title="Projects"></app-next-page>
+  <div class="content">
+    <div class="left">
+      <h1>Alvin Tan</h1>
+      <h1>陈维斌</h1>
+      <h5>
+        Transforming creative concepts into high-impact, business-driven
+        solutions
+      </h5>
+      <div class="buttons">
+        <app-styled-button
+          title="GitHub"
+          class="primary"
+          href="https://github.com/alvinhuhhh"
+        ></app-styled-button>
+        <app-styled-button
+          title="Contact"
+          class="secondary"
+          [scrollToPage]="true"
+        ></app-styled-button>
+      </div>
+    </div>
+    <div class="right">
+      <img src="assets/Hero.png" />
+    </div>
+  </div>
+
+  <div class="footer">
+    <app-next-page title="Projects"></app-next-page>
+  </div>
 </div>

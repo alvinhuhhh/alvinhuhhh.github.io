@@ -1,5 +1,42 @@
 .page {
-  background-color: var(--platinum);
   height: 100%;
+  background-color: var(--platinum);
+}
+
+.content {
+  height: 92%;
   width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10%;
+  /* background-color: green; */
+}
+.buttons {
+  padding-top: 8%;
+  /* background-color: red; */
+}
+app-styled-button {
+  padding-right: 18px;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 8%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
