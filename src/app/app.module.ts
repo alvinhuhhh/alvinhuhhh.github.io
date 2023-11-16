@@ -6,19 +6,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LandingComponent } from './landing/landing.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { StyledButtonComponent } from './components/styled-button/styled-button.component';
+import { NextPageComponent } from './components/next-page/next-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    StyledButtonComponent,
+    NextPageComponent,
   ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule
-  ],
+  imports: [BrowserModule, BrowserAnimationsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
