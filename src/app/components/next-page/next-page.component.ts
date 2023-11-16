@@ -9,6 +9,6 @@ export class NextPageComponent {
   @Input() title = '';
 
   public onClick(): void {
-    console.log('scroll to next page');
+    window.scrollBy(0, 1000);
   }
 }

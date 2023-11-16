@@ -11,12 +11,12 @@
         <app-styled-button
           title="GitHub"
           class="primary"
-          href="https://github.com/alvinhuhhh"
+          [onClick]="redirectToGitHub"
         ></app-styled-button>
         <app-styled-button
           title="Contact"
           class="secondary"
-          [scrollToPage]="true"
+          [onClick]="scrollToContactPage"
         ></app-styled-button>
       </div>
     </div>

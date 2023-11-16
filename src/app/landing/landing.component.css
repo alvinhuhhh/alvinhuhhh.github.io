@@ -16,11 +16,9 @@
   flex-direction: column;
   justify-content: center;
   margin: 10%;
-  /* background-color: green; */
 }
 .buttons {
   padding-top: 8%;
-  /* background-color: red; */
 }
 app-styled-button {
   padding-right: 18px;
@@ -31,6 +29,10 @@ app-styled-button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .footer {
