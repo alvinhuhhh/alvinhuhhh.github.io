@@ -1,4 +1,46 @@
-.styled-button {
+button {
+  height: 48px;
+  width: 126px;
+  border: 0;
+  border-radius: 48px;
   font-family: "Manrope";
+  font-size: medium;
   letter-spacing: normal;
+}
+
+.primary {
+  color: #ffffff;
+  background-color: var(--onyx);
+}
+.primary:hover {
+  color: #ffffff;
+  background-color: var(--feldgrau);
+  cursor: pointer;
+}
+.primary:active {
+  color: var(--onyx);
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--onyx);
+}
+
+.secondary {
+  color: var(--onyx);
+  border-color: var(--onyx);
+  background-color: transparent;
+  border: 1px solid;
+  border-color: var(--onyx);
+}
+.secondary:hover {
+  color: #ffffff;
+  background-color: var(--feldgrau);
+  cursor: pointer;
+  border: 1px solid;
+  border-color: var(--feldgrau);
+}
+.secondary:active {
+  color: var(--onyx);
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--onyx);
 }
