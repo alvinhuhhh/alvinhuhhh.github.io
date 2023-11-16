@@ -1,0 +1,20 @@
+div {
+  width: fit-content;
+  display: block;
+}
+div:hover {
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+  background-color: transparent;
+}
+.text {
+  margin: auto;
+  background-color: transparent;
+}
+
+.icon {
+  margin: auto;
+}
