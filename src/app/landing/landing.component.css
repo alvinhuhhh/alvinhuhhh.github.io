@@ -1,44 +1,96 @@
-.page {
-  height: 100%;
-  background-color: var(--platinum);
+@media only screen and (max-width: 480px) {
+  .page {
+    height: 100%;
+    width: auto;
+    background-color: var(--platinum);
+  }
+
+  .content {
+    height: 92%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10%;
+  }
+  .buttons {
+    align-self: center;
+    padding-top: 8%;
+  }
+  app-styled-button {
+    padding-right: 18px;
+  }
+
+  .right {
+    width: 65%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    display: none;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .footer {
+    height: 8%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.content {
-  height: 92%;
-  width: auto;
-  display: flex;
-  justify-content: space-around;
-}
+@media only screen and (min-width: 1000px) {
+  .page {
+    height: 100%;
+    background-color: var(--platinum);
+  }
 
-.left {
-  width: 35%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 10%;
-}
-.buttons {
-  padding-top: 8%;
-}
-app-styled-button {
-  padding-right: 18px;
-}
+  .content {
+    height: 92%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+  }
 
-.right {
-  width: 65%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-img {
-  max-height: 100%;
-  max-width: 100%;
-}
+  .left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10%;
+  }
+  .buttons {
+    padding-top: 8%;
+  }
+  app-styled-button {
+    padding-right: 18px;
+  }
 
-.footer {
-  height: 8%;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .right {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .footer {
+    height: 8%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

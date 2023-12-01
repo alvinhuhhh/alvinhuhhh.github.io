@@ -1,6 +1,17 @@
-section {
-  height: 100vh;
-  width: auto;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
+@media only screen and (max-width: 480px) {
+  section {
+    height: 100vh;
+    width: auto;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  section {
+    height: 100vh;
+    width: auto;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
 }
