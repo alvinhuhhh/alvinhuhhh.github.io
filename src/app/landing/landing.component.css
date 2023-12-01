@@ -9,7 +9,6 @@
     height: 92%;
     width: auto;
     display: flex;
-    justify-content: space-around;
   }
 
   .left {
@@ -24,7 +23,7 @@
     padding-top: 8%;
   }
   app-styled-button {
-    padding-right: 18px;
+    padding: 0 8px 0 8px;
   }
 
   .right {
@@ -72,7 +71,7 @@
     padding-top: 8%;
   }
   app-styled-button {
-    padding-right: 18px;
+    padding: 0 8px 0 8px;
   }
 
   .right {

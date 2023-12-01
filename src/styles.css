@@ -6,12 +6,12 @@
   html,
   body {
     scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
   }
 }
 
 html,
 body {
+  scroll-behavior: smooth;
   font-size: 100%;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
