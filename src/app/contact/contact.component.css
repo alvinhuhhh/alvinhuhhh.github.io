@@ -8,12 +8,10 @@
   .content {
     height: 85%;
     width: auto;
-    display: flex;
-    justify-content: space-around;
   }
 
   .left {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,27 +19,20 @@
   }
 
   .left-content {
-    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    border-right: 1px solid #ffffff;
-    padding: 0 136px 0 0;
+    padding: 25px 25px 0 0;
   }
 
   h1 {
-    width: 50%;
     color: #ffffff;
     text-align: right;
   }
 
   .motif {
-    width: auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-top: 48px;
+    display: none;
   }
   h5 {
     width: 50%;
@@ -56,20 +47,19 @@
   }
 
   .right {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .right-content {
-    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0 0 0 136px;
+    padding: 1%;
   }
 
   .detail {
