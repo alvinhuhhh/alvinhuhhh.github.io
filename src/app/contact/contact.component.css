@@ -18,6 +18,17 @@
   justify-content: center;
   align-items: flex-end;
 }
+
+.left-content {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border-right: 1px solid #ffffff;
+  padding: 0 136px 0 0;
+}
+
 h1 {
   width: 50%;
   color: #ffffff;
@@ -46,8 +57,36 @@ h5 {
 .right {
   width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.right-content {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 0 0 136px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 24px 0 24px 0;
+}
+.detail h5 {
+  color: var(--timberwolf);
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+.detail h4 {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .footer {
