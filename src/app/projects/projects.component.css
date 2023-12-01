@@ -1,5 +1,47 @@
-.page {
-  background-color: #ffffff;
-  height: 100%;
-  width: auto;
+@media only screen and (max-width: 480px) {
+  .page {
+    height: 100%;
+    width: auto;
+    background-color: #ffffff;
+  }
+
+  .content {
+    height: 92%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    height: 8%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .page {
+    height: 100%;
+    width: auto;
+    background-color: #ffffff;
+  }
+
+  .content {
+    height: 92%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    height: 8%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
