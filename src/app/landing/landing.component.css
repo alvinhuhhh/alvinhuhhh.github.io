@@ -48,7 +48,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 481px) {
   .page {
     height: 100%;
     background-color: var(--platinum);

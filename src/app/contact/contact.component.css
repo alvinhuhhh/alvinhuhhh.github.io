@@ -94,7 +94,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 481px) {
   .page {
     background-color: var(--onyx);
     height: 100%;

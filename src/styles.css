@@ -2,6 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css?family=Manrope:400,300");
 
+@media only screen and (min-width: 1000px) {
+  html,
+  body {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+}
+
 html,
 body {
   font-size: 100%;
@@ -9,8 +17,6 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: #000000;
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
   background: white;
   margin: 0;
 } /*16px*/
