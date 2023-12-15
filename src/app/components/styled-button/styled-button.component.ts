@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-styled-button',
   templateUrl: './styled-button.component.html',
-  styleUrls: ['./styled-button.component.css'],
+  styleUrls: ['./styled-button.component.scss'],
 })
 export class StyledButtonComponent {
   @Input() title: string = '';
