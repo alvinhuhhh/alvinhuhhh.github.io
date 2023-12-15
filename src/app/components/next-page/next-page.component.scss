@@ -1,9 +1,10 @@
 div {
   width: fit-content;
   display: block;
-}
-div:hover {
-  cursor: pointer;
+
+  :hover {
+    cursor: pointer;
+  }
 }
 
 body {
