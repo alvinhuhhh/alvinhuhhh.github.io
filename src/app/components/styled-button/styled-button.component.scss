@@ -11,19 +11,17 @@ button {
 .primary {
   color: #ffffff;
   background-color: var(--onyx);
-
-  :hover {
-    color: #ffffff;
-    background-color: var(--feldgrau);
-    cursor: pointer;
-  }
-
-  :active {
-    color: var(--onyx);
-    background-color: #ffffff;
-    border: 1px solid;
-    border-color: var(--onyx);
-  }
+}
+.primary:hover {
+  color: #ffffff;
+  background-color: var(--feldgrau);
+  cursor: pointer;
+}
+.primary:active {
+  color: var(--onyx);
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--onyx);
 }
 
 .secondary {
@@ -32,19 +30,17 @@ button {
   background-color: transparent;
   border: 1px solid;
   border-color: var(--onyx);
-
-  :hover {
-    color: #ffffff;
-    background-color: var(--feldgrau);
-    cursor: pointer;
-    border: 1px solid;
-    border-color: var(--feldgrau);
-  }
-
-  :active {
-    color: var(--onyx);
-    background-color: #ffffff;
-    border: 1px solid;
-    border-color: var(--onyx);
-  }
+}
+.secondary:hover {
+  color: #ffffff;
+  background-color: var(--feldgrau);
+  cursor: pointer;
+  border: 1px solid;
+  border-color: var(--feldgrau);
+}
+.secondary:active {
+  color: var(--onyx);
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--onyx);
 }
