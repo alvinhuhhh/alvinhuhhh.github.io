@@ -153,5 +153,13 @@
       color: #ffffff;
       margin: 4px 0 0 0;
     }
+
+    a {
+      text-decoration: none;
+
+      :active {
+        background-color: var(--feldgrau);
+      }
+    }
   }
 }

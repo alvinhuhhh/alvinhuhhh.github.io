@@ -16,11 +16,15 @@
         </div>
         <div class="detail">
           <small>GitHub</small>
-          <h5>{{ github }}</h5>
+          <a [href]="github_url">
+            <h5>{{ github }}</h5>
+          </a>
         </div>
         <div class="detail">
           <small>LinkedIn</small>
-          <h5>{{ linkedin }}</h5>
+          <a [href]="linkedin_url">
+            <h5>{{ linkedin }}</h5>
+          </a>
         </div>
       </div>
     </div>
