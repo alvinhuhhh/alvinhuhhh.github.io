@@ -11,6 +11,7 @@
   }
 
   .left {
+    height: 25%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -23,10 +24,7 @@
   }
 
   .motif {
-    padding: 48px 0 24px 0;
-
     h3 {
-      width: 75%;
       color: #ffffff;
       margin: 0;
     }
@@ -37,15 +35,16 @@
   }
 
   .right {
+    height: 75%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 
   .right-content {
-    width: auto;
+    width: 75vw;
   }
 
   .detail {
