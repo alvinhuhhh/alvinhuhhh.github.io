@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { StyledButtonComponent } from './components/styled-button/styled-button.component';
 import { NextPageComponent } from './components/next-page/next-page.component';
+import { ProjectTileComponent } from './components/project-tile/project-tile.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NextPageComponent } from './components/next-page/next-page.component';
     ContactComponent,
     StyledButtonComponent,
     NextPageComponent,
+    ProjectTileComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule],
   providers: [],

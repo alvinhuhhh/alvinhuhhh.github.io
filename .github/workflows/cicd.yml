@@ -1,10 +1,6 @@
 name: Deploy Angular build to GitHub Pages
 
 on:
-  # Runs on pushes targeting the main branch
-  push:
-    branches: ["main"]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -21,7 +17,6 @@ concurrency:
 
 jobs:
   cicd:
-
     runs-on: ubuntu-latest
 
     environment:
@@ -31,27 +26,27 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        
+
       - name: Use Node.js 18.x
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
-          cache: 'npm'
-          
+          cache: "npm"
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
-        
+
       - name: npm clean install
         run: npm ci
-        
+
       - name: Build artifact
         run: npm run build --if-present
-        
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: 'dist/alvinhuhhh.github.io'
-          
+          path: "dist/alvinhuhhh.github.io"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2

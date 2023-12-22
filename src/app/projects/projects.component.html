@@ -1,6 +1,14 @@
 <div class="page">
   <div class="content">
-    <h2>Coming soon!</h2>
+    <app-project-tile
+      title="Alfred"
+      description="Telegram butler for the family"
+      imgSrc="assets/projects/alfred.png"
+      btn1Title="Link"
+      btn2Title="GitHub"
+      [btn1OnClick]="alfredLink"
+      [btn2OnClick]="alfredGitHub"
+    ></app-project-tile>
   </div>
   <div class="footer">
     <app-next-page title="Contact"></app-next-page>

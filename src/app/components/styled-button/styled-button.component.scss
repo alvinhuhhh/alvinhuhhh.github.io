@@ -19,9 +19,7 @@ button {
 }
 .primary:active {
   color: var(--onyx);
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: var(--onyx);
+  background-color: var(--ash-gray);
 }
 
 .secondary {
@@ -35,12 +33,28 @@ button {
   color: #ffffff;
   background-color: var(--feldgrau);
   cursor: pointer;
-  border: 1px solid;
-  border-color: var(--feldgrau);
 }
 .secondary:active {
   color: var(--onyx);
-  background-color: #ffffff;
+  background-color: var(--ash-gray);
+  border: none;
+}
+
+.inverted {
+  color: white;
+  border-color: white;
+  background-color: transparent;
   border: 1px solid;
-  border-color: var(--onyx);
+  border-color: white;
+}
+.inverted:hover {
+  color: #ffffff;
+  background-color: var(--feldgrau);
+  cursor: pointer;
+  border: none;
+}
+.inverted:active {
+  color: var(--onyx);
+  background-color: var(--ash-gray);
+  border: none;
 }
