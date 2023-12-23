@@ -14,22 +14,6 @@
   }
 
   .content {
-    h3 {
-      display: none;
-    }
-
-    body {
-      display: none;
-    }
-
-    app-styled-button {
-      display: none;
-    }
-  }
-}
-
-.tile:hover {
-  .content {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -41,6 +25,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    opacity: 0;
+    transition: opacity 250ms;
 
     h3 {
       display: inline;
@@ -58,5 +44,11 @@
     app-styled-button {
       display: flex;
     }
+  }
+}
+
+.tile:hover {
+  .content {
+    opacity: 1;
   }
 }
