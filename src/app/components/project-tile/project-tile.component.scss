@@ -22,10 +22,8 @@
       display: none;
     }
 
-    .actions {
-      app-styled-button {
-        display: none;
-      }
+    app-styled-button {
+      display: none;
     }
   }
 }
@@ -59,15 +57,8 @@
       margin: 0;
     }
 
-    .actions {
-      width: 50%;
+    app-styled-button {
       display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-
-      app-styled-button {
-        display: flex;
-      }
     }
   }
 }

@@ -5,17 +5,10 @@
     <body>
       {{ description }}
     </body>
-    <div class="actions">
-      <app-styled-button
-        [title]="btn1Title"
-        class="inverted"
-        [onClick]="btn1OnClick"
-      ></app-styled-button>
-      <app-styled-button
-        [title]="btn2Title"
-        class="inverted"
-        [onClick]="btn2OnClick"
-      ></app-styled-button>
-    </div>
+    <app-styled-button
+      [title]="btnTitle"
+      class="inverted"
+      [onClick]="btnOnClick"
+    ></app-styled-button>
   </div>
 </div>

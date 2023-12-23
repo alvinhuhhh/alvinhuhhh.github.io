@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Project } from './project';
 
 @Component({
   selector: 'app-projects',
@@ -6,11 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.scss'],
 })
 export class ProjectsComponent {
-  public alfredLink(): void {
-    window.open('https://t.me/alfred_tan_bot', '_blank');
-  }
+  public projects: Project[] = [
+    {
+      title: 'Alfred',
+      description: 'Telegram butler for the family',
+      imgSrc: 'assets/projects/alfred.png',
+      btnTitle: 'GitHub',
+      btnOnClick: this.alfredLink,
+    },
+  ];
 
-  public alfredGitHub(): void {
+  public alfredLink(): void {
     window.open('https://github.com/alvinhuhhh/alfred_tan_bot', '_blank');
   }
 }

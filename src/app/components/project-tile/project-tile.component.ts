@@ -10,8 +10,6 @@ export class ProjectTileComponent {
   @Input() description: string = '';
   @Input() imgSrc: string = '';
   @Input() imgAlt: string = 'assets/Hero.png';
-  @Input() btn1Title: string = '';
-  @Input() btn2Title: string = '';
-  @Input() btn1OnClick: () => void = () => {};
-  @Input() btn2OnClick: () => void = () => {};
+  @Input() btnTitle: string = '';
+  @Input() btnOnClick: () => void = () => {};
 }
