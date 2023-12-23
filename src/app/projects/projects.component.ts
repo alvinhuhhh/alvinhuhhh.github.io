@@ -11,7 +11,7 @@ export class ProjectsComponent {
     {
       title: 'Alfred',
       description: 'Telegram butler for the family',
-      imgSrc: 'assets/projects/alfred.png',
+      imgSrc: 'assets/projects/alfred-telegram-page.png',
       btnTitle: 'GitHub',
       btnOnClick: this.alfredLink,
     },
