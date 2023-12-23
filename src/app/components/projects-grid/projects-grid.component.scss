@@ -1,0 +1,25 @@
+@media only screen and (max-width: 480px) {
+  .tile {
+    height: 46%;
+    width: 98%;
+    padding: 1%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .tile {
+    height: 46%;
+    width: 48%;
+    padding: 1%;
+  }
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  overflow-y: scroll;
+}

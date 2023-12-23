@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="tile" *ngFor="let project of projects">
+    <app-project-tile
+      [title]="project.title"
+      [description]="project.description"
+      [imgSrc]="project.imgSrc"
+      [btnTitle]="project.btnTitle"
+      [btnOnClick]="project.btnOnClick"
+    ></app-project-tile>
+  </div>
+</div>

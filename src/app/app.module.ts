@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { StyledButtonComponent } from './components/styled-button/styled-button.component';
 import { NextPageComponent } from './components/next-page/next-page.component';
 import { ProjectTileComponent } from './components/project-tile/project-tile.component';
+import { ProjectsGridComponent } from './components/projects-grid/projects-grid.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProjectTileComponent } from './components/project-tile/project-tile.com
     StyledButtonComponent,
     NextPageComponent,
     ProjectTileComponent,
+    ProjectsGridComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule],
   providers: [],
