@@ -15,6 +15,41 @@ export class ProjectsComponent {
       btnTitle: 'GitHub',
       btnOnClick: this.alfredLink,
     },
+    {
+      title: 'Alfred',
+      description: 'Telegram butler for the family',
+      imgSrc: 'assets/projects/alfred.png',
+      btnTitle: 'GitHub',
+      btnOnClick: this.alfredLink,
+    },
+    {
+      title: 'Alfred',
+      description: 'Telegram butler for the family',
+      imgSrc: 'assets/projects/alfred.png',
+      btnTitle: 'GitHub',
+      btnOnClick: this.alfredLink,
+    },
+    {
+      title: 'Alfred',
+      description: 'Telegram butler for the family',
+      imgSrc: 'assets/projects/alfred.png',
+      btnTitle: 'GitHub',
+      btnOnClick: this.alfredLink,
+    },
+    {
+      title: 'Alfred',
+      description: 'Telegram butler for the family',
+      imgSrc: 'assets/projects/alfred.png',
+      btnTitle: 'GitHub',
+      btnOnClick: this.alfredLink,
+    },
+    {
+      title: 'Alfred',
+      description: 'Telegram butler for the family',
+      imgSrc: 'assets/projects/alfred.png',
+      btnTitle: 'GitHub',
+      btnOnClick: this.alfredLink,
+    },
   ];
 
   public alfredLink(): void {

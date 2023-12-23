@@ -28,20 +28,27 @@
     flex-direction: row;
     justify-content: center;
 
-    .grid {
+    .page {
       height: 100%;
       width: 99%;
       display: flex;
       flex-wrap: wrap;
+      overflow: hidden;
     }
 
     .nav-button {
       cursor: pointer;
       display: flex;
       align-items: center;
+      border-radius: 20px;
+    }
 
-      img {
-      }
+    .nav-button:hover {
+      background-color: var(--ash-gray);
+    }
+
+    .nav-button:active {
+      background-color: var(--feldgrau);
     }
   }
 
