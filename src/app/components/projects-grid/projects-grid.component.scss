@@ -18,8 +18,50 @@
   height: 100%;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  overflow: hidden;
-  overflow-y: scroll;
+
+  .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .grid {
+      height: 100%;
+      width: 99%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .nav-button {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      img {
+      }
+    }
+  }
+
+  .page-indicator {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .dots {
+      display: flex;
+      flex-direction: row;
+
+      .dot {
+        height: 8px;
+        width: 8px;
+        border-radius: 8px;
+        margin: 8px 4px 8px 4px;
+        background-color: var(--ash-gray);
+      }
+    }
+  }
 }

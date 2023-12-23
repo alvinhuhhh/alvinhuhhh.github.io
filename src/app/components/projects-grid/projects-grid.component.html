@@ -1,11 +1,43 @@
 <div class="container">
-  <div class="tile" *ngFor="let project of projects">
-    <app-project-tile
-      [title]="project.title"
-      [description]="project.description"
-      [imgSrc]="project.imgSrc"
-      [btnTitle]="project.btnTitle"
-      [btnOnClick]="project.btnOnClick"
-    ></app-project-tile>
+  <div class="content">
+    <div
+      class="nav-button"
+      [style.visibility]="currentPage !== 0 ? '' : 'hidden'"
+      (click)="back()"
+    >
+      <img src="assets/icons/chevron-left-24.svg" />
+    </div>
+    <div class="grid">
+      <div class="tile" *ngFor="let project of displayedProjects">
+        <app-project-tile
+          [title]="project.title"
+          [description]="project.description"
+          [imgSrc]="project.imgSrc"
+          [btnTitle]="project.btnTitle"
+          [btnOnClick]="project.btnOnClick"
+        ></app-project-tile>
+      </div>
+    </div>
+    <div
+      class="nav-button"
+      [style.visibility]="
+        currentPage !== this.paginatedProjects.length - 1 ? '' : 'hidden'
+      "
+      (click)="next()"
+    >
+      <img src="assets/icons/chevron-right-24.svg" />
+    </div>
+  </div>
+
+  <div class="page-indicator">
+    <div class="dots">
+      <div
+        class="dot"
+        *ngFor="let page of paginatedProjects"
+        [style.background-color]="
+          page.active ? 'var(--feldgrau)' : 'var(--ash-gray)'
+        "
+      ></div>
+    </div>
   </div>
 </div>

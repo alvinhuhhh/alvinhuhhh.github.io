@@ -15,34 +15,6 @@ export class ProjectsComponent {
       btnTitle: 'GitHub',
       btnOnClick: this.alfredLink,
     },
-    // {
-    //   title: 'Alfred 2',
-    //   description: 'Some description',
-    //   imgSrc: 'assets/projects/alfred.png',
-    //   btnTitle: 'GitHub',
-    //   btnOnClick: this.alfredLink,
-    // },
-    // {
-    //   title: 'Alfred 3',
-    //   description: 'Some description',
-    //   imgSrc: 'assets/projects/alfred.png',
-    //   btnTitle: 'GitHub',
-    //   btnOnClick: this.alfredLink,
-    // },
-    // {
-    //   title: 'Alfred 4',
-    //   description: 'Some description',
-    //   imgSrc: 'assets/projects/alfred.png',
-    //   btnTitle: 'GitHub',
-    //   btnOnClick: this.alfredLink,
-    // },
-    // {
-    //   title: 'Alfred 5',
-    //   description: 'Some description',
-    //   imgSrc: 'assets/projects/alfred.png',
-    //   btnTitle: 'GitHub',
-    //   btnOnClick: this.alfredLink,
-    // },
   ];
 
   public alfredLink(): void {
