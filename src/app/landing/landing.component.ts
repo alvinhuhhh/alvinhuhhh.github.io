@@ -10,7 +10,7 @@ export class LandingComponent {
     window.open('https://github.com/alvinhuhhh', '_blank');
   }
 
-  public scrollToContactPage(): void {
-    window.scrollTo(0, document.body.scrollHeight);
+  public redirectToCV(): void {
+    window.open('https://alvinhuhhh.github.io/cv', '_blank');
   }
 }
