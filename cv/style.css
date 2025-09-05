@@ -1,0 +1,81 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+small {
+  margin: 0;
+  color: #2e3d50;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 2px 0;
+}
+
+small {
+  font-size: 12px;
+}
+
+.base {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 1cm 1.4cm;
+}
+
+.section {
+}
+
+.section-header {
+}
+
+.section-rule {
+  border: 1px solid;
+  border-color: #e5e7eb;
+  margin: 1em 0;
+}
+
+.section-item {
+  margin: 1em 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.header-name {
+}
+
+.subheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-subheader {
+  display: flex;
+  justify-content: space-between;
+}
