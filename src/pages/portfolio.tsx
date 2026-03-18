@@ -5,28 +5,12 @@ import { useState } from "react";
 const PROJECTS = [
   {
     id: "01",
-    title: "High-Volume Transaction Processor",
-    category: "Distributed Systems / Java",
+    title: "Alfred",
+    category: "Telegram Bot / Golang/Vue",
     description:
-      "Designed a Spring Boot microservice handling 500k+ daily financial operations with 99.99% uptime.",
+      "Telegram butler for the family",
     link: "https://github.com/alvinhuhhh",
-  },
-  {
-    id: "02",
-    title: "Healthcare Data Pipeline",
-    category: "Data Engineering / Python",
-    description:
-      "Automated ETL pipeline reducing manual processing time by 80% via Apache Airflow and Snowflake.",
-    link: "https://github.com/alvinhuhhh",
-  },
-  {
-    id: "03",
-    title: "GovTech Portal Modernization",
-    category: "Fullstack / React",
-    description:
-      "Led migration of legacy government portal to a modern React-based design system with 98% accessibility.",
-    link: "https://github.com/alvinhuhhh",
-  },
+  }
 ];
 
 export default function Portfolio() {
