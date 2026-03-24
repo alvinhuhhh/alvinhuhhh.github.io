@@ -6,11 +6,19 @@ const PROJECTS = [
   {
     id: "01",
     title: "Alfred",
-    category: "Telegram Bot / Golang/Vue",
+    category: "Telegram Bot | Golang/Vue",
     description:
-      "Telegram butler for the family",
+      "A Telegram mini-app I designed and built from scratch to serve as a family butler — handling everyday admin tasks so my household doesn't have to.",
+    link: "https://t.me/goalfredbot",
+  },
+  {
+    id: "02",
+    title: "Cross-border Payments Sanctions Screening",
+    category: "Distributed Systems | Java",
+    description:
+      "Designed and maintained distributed backend microservices that screen 588,000+ SWIFT payment messages daily in real time, keeping cross-border transactions compliant with global financial regulations.",
     link: "https://github.com/alvinhuhhh",
-  }
+  },
 ];
 
 export default function Portfolio() {
@@ -101,8 +109,8 @@ export default function Portfolio() {
             <div className="flex flex-col md:flex-row md:items-end gap-10 md:gap-16 lg:gap-24 mt-8 md:mt-12">
               <div className="flex-1 space-y-6 md:space-y-10 pb-4">
                 <p className="text-xl sm:text-2xl md:text-4xl font-normal leading-relaxed text-white max-w-3xl">
-                  Building high-scale, mission-critical systems in banking, gov,
-                  and healthcare sectors.
+                  Building high-scale, mission-critical systems in banking and
+                  gov.
                 </p>
                 <div className="grid grid-cols-2 lg:flex lg:gap-16 text-[10px] md:text-xs uppercase tracking-[0.2em] font-bold text-white/90 gap-y-6">
                   <div>
@@ -187,25 +195,25 @@ export default function Portfolio() {
                 <span className="text-primary block text-sm md:text-base font-black">
                   Back
                 </span>
-                Java / TypeScript / Go
+                Java / Golang
               </div>
               <div className="space-y-2 md:space-y-4">
                 <span className="text-primary block text-sm md:text-base font-black">
                   Front
                 </span>
-                Angular / React / Vue
+                Angular / Vue / React
               </div>
               <div className="space-y-2 md:space-y-4">
                 <span className="text-primary block text-sm md:text-base font-black">
                   Cloud
                 </span>
-                AWS / Azure / PCF / RedHat OpenShift
+                AWS / Supabase / Openshift
               </div>
               <div className="space-y-2 md:space-y-4">
                 <span className="text-primary block text-sm md:text-base font-black">
                   Data
                 </span>
-                MariaDB / PostgreSQL / Apache Druid
+                MariaDB / PostgreSQL
               </div>
             </div>
           </div>
@@ -249,7 +257,7 @@ export default function Portfolio() {
       </main>
 
       <footer className="p-8 md:p-12 text-center text-[10px] md:text-xs uppercase tracking-[0.4em] font-bold text-white/50 border-t border-white/10">
-        Designed for Scale / Built in 2026
+        Available for new challenges / Built in 2026
       </footer>
     </div>
   );
